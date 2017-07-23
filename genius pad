@@ -1,0 +1,62 @@
+//for this controll https://www.google.co.ve/search?q=genius+controles&source=lnms&tbm=isch&sa=X&ved=0ahUKEwihnZSku6DVAhUwSJoKHRprDnMQ_AUICigB&biw=1366&bih=662#imgrc=2oFL9p5m2x_VDM:
+
+
+//genius//Botones//Bottoms
+[vid=0583,pid=a009]
+
+
+VPAD_BUTTON_A               = 0x05,0x02
+VPAD_BUTTON_B               = 0x05,0x01
+VPAD_BUTTON_X               = 0x05,0x08
+VPAD_BUTTON_Y               = 0x05,0x04
+VPAD_BUTTON_PLUS            = 0x06,0x02
+VPAD_BUTTON_MINUS           = 0x06,0x01
+VPAD_BUTTON_HOME            = 
+
+VPAD_BUTTON_L               = 0x05,0x10
+VPAD_BUTTON_R               = 0x05,0x20
+
+VPAD_BUTTON_STICK_L         = 0x06,0x04
+VPAD_BUTTON_STICK_R         = 0x06,0x08
+
+VPAD_BUTTON_ZL              = 0x05,0x40
+VPAD_BUTTON_ZR              = 0x05,0x80
+
+//PAD//
+
+
+DPAD_MODE                   =   DPAD_HAT  
+DPad_MASK                   =   0x0F      
+VPAD_BUTTON_DPAD_N          =   0x04,0x00 
+VPAD_BUTTON_DPAD_NE         =   0x04,0x01 
+VPAD_BUTTON_DPAD_E          =   0x04,0x02 
+VPAD_BUTTON_DPAD_SE         =   0x04,0x03 
+VPAD_BUTTON_DPAD_S          =   0x04,0x04 
+VPAD_BUTTON_DPAD_SW         =   0x04,0x05 
+VPAD_BUTTON_DPAD_W          =   0x04,0x06 
+VPAD_BUTTON_DPAD_NW         =   0x04,0x07 
+VPAD_BUTTON_DPAD_Neutral    =   0x04,0x0F 
+
+
+//LeftStick//PalancaIzquierda 
+
+
+VPad_L_Stick_X          =   0x00,0x80 
+VPad_L_Stick_X_MinMax   =   0x00,0xFF 
+VPad_L_Stick_X_Deadzone =   0x0A     
+
+VPad_L_Stick_Y          =   0x01,0x80 
+VPad_L_Stick_Y_MinMax   =   0x01,0xFF 
+VPad_L_Stick_Y_Deadzone =   0x0A      
+VPad_L_Stick_Y_Invert   =   True      
+
+//RightStick//PalancaDerecha
+
+VPad_R_Stick_X          =   0x02,0x80 
+VPad_R_Stick_X_MinMax   =   0x02,0xFF 
+VPad_R_Stick_X_Deadzone =   0x0A      
+
+VPad_R_Stick_Y          =   0x03,0x80 
+VPad_R_Stick_Y_MinMax   =   0x03,0xFF 
+VPad_R_Stick_Y_Deadzone =   0x0A     
+VPad_R_Stick_Y_Invert   =   True      
